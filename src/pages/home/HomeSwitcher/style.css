@@ -1,0 +1,41 @@
+.home-switcher {
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
+  background-color: #4D4D4D;
+  display: flex;
+  justify-content: center;
+}
+
+.home-switcher-box {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.home-switcher ul {
+  height: 100%;
+  width: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-switcher ul li {
+  height: 32px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 2px;
+  padding: 0 8px;
+  margin: 0 20px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer; 
+}
+
+.home-switcher li.home-switcher-tab-selected {
+  /* height: 32px;
+  margin: 16px 0; */
+  background-color: #B7ECB2;
+  color: #2B2B2B;
+  border-radius: 20px;
+}

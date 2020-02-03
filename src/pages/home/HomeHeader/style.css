@@ -1,0 +1,37 @@
+.home-header {
+  height: 64px;
+  width: 100%;
+  background-color: #4D4D4D;
+  display: flex;
+  align-items: center;
+}
+
+.home-header-ncuhome {
+  color: #B7ECB2;
+  font-size: 18px;
+  margin: 0 48px;
+  letter-spacing: 2px;
+  cursor: inherit;
+}
+
+@media (min-width: 768px) {
+  .home-header-tabs ul {
+    display: flex;
+  }
+  
+  .home-header-tabs ul li {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 20px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  .home-header-tabs ul li:nth-child(3) {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+}

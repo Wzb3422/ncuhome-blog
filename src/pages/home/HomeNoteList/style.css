@@ -1,0 +1,15 @@
+.home-note-list {
+  width: 940px;
+  height: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .home-note-list {
+    width: 100%;
+  }
+}

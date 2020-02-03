@@ -1,0 +1,76 @@
+.home-note-item {
+  /* height: 190px; */
+  width: calc(100% - 76px);
+  margin: 22px 0;
+  /* background-color: lightgrey; */
+  display: flex;
+}
+
+.home-note-item-info {
+  width: 70%;
+  height: 202px;
+}
+
+.home-note-item-info h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.home-note-item-info p {
+  font-size: 16px;
+  color: #4A4A4A;
+  line-height: 22px;
+  height: 88px;
+  overflow: hidden;
+}
+
+.home-note-meta {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-note-meta div {
+  width: 50%;
+}
+
+.home-note-meta h4 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.45)
+}
+
+.home-note-meta h5 {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #858585;
+}
+
+.home-note-meta .home-note-item-flag {
+  height: 30px;
+  width: 28px;
+  font-size: 30px;
+  font-family: iconfont;
+  margin-right: 12px;
+}
+
+
+
+.home-note-item-img {
+  width: 25%;
+  margin-left: 5%;
+  background-color: red;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1626137 */
+  src: url('//at.alicdn.com/t/font_1626137_7vhprne1cro.eot');
+  src: url('//at.alicdn.com/t/font_1626137_7vhprne1cro.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1626137_7vhprne1cro.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1626137_7vhprne1cro.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1626137_7vhprne1cro.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1626137_7vhprne1cro.svg#iconfont') format('svg');
+}
