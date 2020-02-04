@@ -1,5 +1,4 @@
 import React from 'react';
-import { useMedia } from 'react-use';
 import './style.css';
 
 const HomeHeaderTabs = () =>
@@ -13,11 +12,10 @@ const HomeHeaderTabs = () =>
   </div>
 
 const HomeHeader: React.FC = () => {
-  const isWide = useMedia('(min-width: 768px)')
   return (
     <div className='home-header'>
       <div className='home-header-ncuhome'>NCUHOME</div>
-      {isWide && <HomeHeaderTabs />}
+      <HomeHeaderTabs />
     </div>
   )
 }

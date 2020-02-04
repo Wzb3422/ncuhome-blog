@@ -8,6 +8,10 @@ const HomeNoteList = () => {
   return (
     <div className='home-note-list'>
       <HomeNoteItem />
+      <HomeNoteItem />
+      <HomeNoteItem />
+      <HomeNoteItem />
+      <HomeNoteItem />
     </div>
   )
 }

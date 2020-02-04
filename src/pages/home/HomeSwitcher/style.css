@@ -39,3 +39,18 @@
   color: #2B2B2B;
   border-radius: 20px;
 }
+
+@media (max-width: 767px) {
+  .home-switcher {
+    height: 48px;
+  }
+  .home-switcher ul {
+    width: 560px;
+  }
+  .home-switcher ul li {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+}

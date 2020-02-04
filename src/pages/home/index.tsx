@@ -5,15 +5,19 @@ const HomeHeader = lazy(() => import('./HomeHeader'));
 const HomeBanner = lazy(() => import('./HomeBanner'));
 const HomeSwitcher = lazy(() => import('./HomeSwitcher'));
 const HomeNoteList = lazy(() => import('./HomeNoteList'));
+const HomeFooter = lazy(() => import('./HomeFooter'));
 
 const Home: React.FC = () => {
 
+  const isWide = useMedia('(min-width: 768px)')
+
   return (
     <>
-      <HomeHeader />
+      {isWide && <HomeHeader />}
       <HomeBanner />
       <HomeSwitcher />
       <HomeNoteList />
+      <HomeFooter />
     </>
   )
 }

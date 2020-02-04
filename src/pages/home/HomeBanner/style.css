@@ -36,7 +36,6 @@
   width: 200px;
   border: 1px solid #B7ECB2;
   border-radius: 100%;
-  animation: infinite linear 10s swing both;
 }
 
 .home-banner-filled-black-circle {
@@ -49,8 +48,65 @@
   top: 50%;
 }
 
-@keyframes swing {
-  0% { top: 20%; right: 3%; }
-  50% { top: 30px; right: 50px; }
-  100% { top: 20%; right: 3%; }
+.home-banner-sm-circle {
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  border: 1px solid #B7ECB2;
+  position: absolute;
+  left: 34%;
+  top: 30%;
+}
+.home-banner-circle-with-dot {
+  height: 24px;
+  width: 24px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  right: 28%;
+  top: 72%;
+}
+
+.home-banner-circle-with-dot div {
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  border: 1px solid #B7ECB2;
+  position: relative;
+  right: 12px;
+}
+
+.home-banner-rect {
+  height: 30px;
+  width: 30px;
+  background-color: #B7ECB2;
+  position: absolute;
+  left: 26%;
+  top: 12%;
+}
+
+.home-banner-rect div {
+  height: 20px;
+  width: 60px;
+  border: 1px solid #000;
+  position: relative;
+  top: 20px;
+  right: 22px;
+}
+
+@media (max-width: 767px) {
+  .home-banner {
+    height: 200px;
+  }
+  .home-banner h1 {
+    font-size: 64px;
+  }
+  .home-banner h3 {
+    font-size: 20px;
+    margin-top: 14px;
+  }
+  .home-banner h4 {
+    font-size: 16px;
+    margin-top: 12px;
+  }
 }

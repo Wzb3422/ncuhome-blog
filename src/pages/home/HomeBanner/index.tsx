@@ -6,6 +6,13 @@ const Shapes: React.FC = () =>
   <>
     <div className='home-banner-big-circle'></div>
     <div className='home-banner-filled-black-circle'></div>
+    <div className='home-banner-sm-circle'></div>
+    <div className='home-banner-circle-with-dot'>
+      <div></div>
+    </div>
+    <div className='home-banner-rect'>
+      <div></div>
+    </div>
   </>
 
 const HomeBanner: React.FC = () => {

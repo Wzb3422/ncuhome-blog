@@ -1,6 +1,6 @@
 .home-note-list {
   width: 940px;
-  height: 1000px;
+  /* height: 1000px; */
   margin: 20px auto;
   background-color: #fff;
   display: flex;

@@ -15,7 +15,8 @@ const HomeNoteItem = () => {
           <div className='home-note-item-flag'>&#xe6a8;</div>
         </div>
       </div>
-      <div className='home-note-item-img'></div>
+      <div className='home-note-item-img' style={{backgroundImage: 'url("/assets/img/dog.jpg")'}}>
+      </div>
     </div>
   )
 }

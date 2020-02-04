@@ -1,14 +1,15 @@
 .home-note-item {
-  /* height: 190px; */
   width: calc(100% - 76px);
-  margin: 22px 0;
+  margin-top: 22px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #F3F2F2;
   /* background-color: lightgrey; */
   display: flex;
 }
 
 .home-note-item-info {
   width: 70%;
-  height: 202px;
+  /* height: 202px; */
 }
 
 .home-note-item-info h2 {
@@ -62,7 +63,12 @@
 .home-note-item-img {
   width: 25%;
   margin-left: 5%;
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @font-face {
@@ -73,4 +79,41 @@
   url('//at.alicdn.com/t/font_1626137_7vhprne1cro.woff') format('woff'),
   url('//at.alicdn.com/t/font_1626137_7vhprne1cro.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_1626137_7vhprne1cro.svg#iconfont') format('svg');
+}
+
+@media (max-width: 767px) {
+  .home-note-item {
+    height: 140px;
+    width: calc(100% - 54px)
+  }
+
+  .home-note-item-info {
+    width: 60%;
+  }
+  .home-note-item-info h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 19px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .home-note-item-info p {
+    height: 44px;
+    font-size: 14px;
+  }
+  .home-note-meta {
+    margin-top: 8px;
+  }
+  .home-note-meta h4, .home-note-meta h5{
+    font-size: 12px;
+  }
+  .home-note-meta .home-note-item-flag {
+    font-size: 24px;
+  }
+  .home-note-item-img {
+    flex: 1;
+    margin-left: 12px;
+    /* margin: 0; */
+  }
 }
